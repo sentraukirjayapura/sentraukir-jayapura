@@ -301,7 +301,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXI2xqQo-0xeNjizcm2BHs4tWrgpapMY6YW494d76mtqHaMeLn7qHJnaxsr1q4riW3_5QHbsTK5oeacLBB9tyIpErtE5UumbkkXKi3CHOAn3Xw_zLRHHG2LttKbRzm1Ts9fk_IUsWm1_NZTpy2i2kVBHYcn9zSwO-8fBvBjFYirySZt35Y9B6tWpG6zF47/s768/552599118_1143826750464123_2928973157546720972_n.jpg);
     height: auto;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -1312,4 +1312,5 @@ textarea#comment.massage-bt::placeholder {
 
 .margin_top90 {
     margin-top: 90px;
+
 }
