@@ -999,6 +999,42 @@ i.fa.fa-link {
 
 /* contact section start */
 
+.contact-info-bar {
+  background-color: #0a0a23;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.contact-info-bar .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-info-bar .info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.contact-info-bar a {
+  color: #f8b400;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info-bar a:hover {
+  color: #fff;
+}
+
+.contact-info-bar i {
+  color: #f8b400;
+  font-size: 18px;
+}
+
 .contact_section {
     width: 100%;
     float: left;
@@ -1314,3 +1350,4 @@ textarea#comment.massage-bt::placeholder {
     margin-top: 90px;
 
 }
+
