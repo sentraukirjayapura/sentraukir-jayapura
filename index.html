@@ -208,28 +208,36 @@ Depan Gereja Baptis Kotaraja,
      <!-- projects section start -->
 <div class="projects_section layout_padding">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="projects_taital">Proyek</h1>
-        <div class="nav-tabs-navigation mb-4">
-          <div class="nav-tabs-wrapper">
-            <ul class="nav" data-tabs="tabs">
-              <li class="nav-item"><a class="nav-link active" href="#">Semua</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Cutting ACP</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Cutting PVC</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Cutting MDF</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Cutting Akrilik</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Cutting Plat Besi</a></li>
-            </ul>
-          </div>
-        </div>
+    <div class="row mb-4">
+      <div class="col-md-12 text-center">
+        <h1 class="projects_taital mb-3">Proyek</h1>
+        <ul class="nav justify-content-center" id="filter-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-filter="all">Semua</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-filter="acp">Cutting ACP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-filter="pvc">Cutting PVC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-filter="mdf">Cutting MDF</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-filter="akrilik">Cutting Akrilik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-filter="besi">Cutting Plat Besi</a>
+          </li>
+        </ul>
       </div>
     </div>
 
     <!-- GALLERY GRID -->
-    <div class="row">
-      <!-- Foto 1 -->
-      <div class="col-md-4 mb-4">
+    <div class="row" id="project-gallery">
+      <!-- Foto 1 - ACP -->
+      <div class="col-md-4 mb-4 project-item" data-category="acp">
         <div class="card shadow-sm border-0">
           <div class="position-relative">
             <img
@@ -237,40 +245,75 @@ Depan Gereja Baptis Kotaraja,
               class="img-fluid rounded"
               alt="Cutting ACP"
             />
-            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0,0,0,0.5); opacity: 0; transition: 0.3s;">
+            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+              style="background: rgba(0,0,0,0.5); opacity: 0; transition: 0.3s;">
               <div class="text-white text-center">
                 <h5>Cutting ACP</h5>
-                <p class="small">Pembuatan panel dinding menggunakan ACP berkualitas tinggi.</p>
+                <p class="small">Panel fasad berbahan ACP yang elegan dan tahan cuaca.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Foto 2 -->
-      <div class="col-md-4 mb-4">
+      <!-- Foto 2 - PVC -->
+      <div class="col-md-4 mb-4 project-item" data-category="pvc">
         <div class="card shadow-sm border-0">
           <div class="position-relative">
-            <img src="images/img-2.png" class="img-fluid rounded" alt="Cutting MDF" />
-            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0,0,0,0.5); opacity: 0; transition: 0.3s;">
+            <img src="images/img-2.png" class="img-fluid rounded" alt="Cutting PVC" />
+            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+              style="background: rgba(0,0,0,0.5); opacity: 0; transition: 0.3s;">
+              <div class="text-white text-center">
+                <h5>Cutting PVC</h5>
+                <p class="small">Desain dekorasi dinding dengan bahan PVC yang fleksibel.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Foto 3 - MDF -->
+      <div class="col-md-4 mb-4 project-item" data-category="mdf">
+        <div class="card shadow-sm border-0">
+          <div class="position-relative">
+            <img src="images/img-3.png" class="img-fluid rounded" alt="Cutting MDF" />
+            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+              style="background: rgba(0,0,0,0.5); opacity: 0; transition: 0.3s;">
               <div class="text-white text-center">
                 <h5>Cutting MDF</h5>
-                <p class="small">Desain panel ukiran MDF untuk interior ruangan.</p>
+                <p class="small">Pembuatan ukiran MDF dengan hasil presisi tinggi.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Foto 3 -->
-      <div class="col-md-4 mb-4">
+      <!-- Foto 4 - Akrilik -->
+      <div class="col-md-4 mb-4 project-item" data-category="akrilik">
         <div class="card shadow-sm border-0">
           <div class="position-relative">
-            <img src="images/img-3.png" class="img-fluid rounded" alt="Cutting Akrilik" />
-            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0,0,0,0.5); opacity: 0; transition: 0.3s;">
+            <img src="images/img-4.png" class="img-fluid rounded" alt="Cutting Akrilik" />
+            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+              style="background: rgba(0,0,0,0.5); opacity: 0; transition: 0.3s;">
               <div class="text-white text-center">
                 <h5>Cutting Akrilik</h5>
-                <p class="small">Proyek signage dan display berbahan akrilik transparan.</p>
+                <p class="small">Display dan signage akrilik dengan potongan laser tajam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Foto 5 - Plat Besi -->
+      <div class="col-md-4 mb-4 project-item" data-category="besi">
+        <div class="card shadow-sm border-0">
+          <div class="position-relative">
+            <img src="images/img-5.png" class="img-fluid rounded" alt="Cutting Plat Besi" />
+            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+              style="background: rgba(0,0,0,0.5); opacity: 0; transition: 0.3s;">
+              <div class="text-white text-center">
+                <h5>Cutting Plat Besi</h5>
+                <p class="small">Pemotongan plat besi dengan desain custom industri.</p>
               </div>
             </div>
           </div>
@@ -280,13 +323,41 @@ Depan Gereja Baptis Kotaraja,
   </div>
 </div>
 <!-- projects section end -->
-<!-- Tambahkan CSS hover effect -->
+
+<!-- CSS Hover Effect -->
 <style>
   .card:hover .overlay {
     opacity: 1;
   }
+  #filter-nav .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+  }
 </style>
 
+<!-- JavaScript Filter -->
+<script>
+  document.querySelectorAll('#filter-nav .nav-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      // Hapus class active dari semua nav-link
+      document.querySelectorAll('#filter-nav .nav-link').forEach(nav => nav.classList.remove('active'));
+      this.classList.add('active');
+
+      const filter = this.getAttribute('data-filter');
+      const items = document.querySelectorAll('.project-item');
+
+      items.forEach(item => {
+        if (filter === 'all' || item.dataset.category === filter) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
       <!-- contact section start -->
       <div class="contact_section layout_padding">
          <div class="container">
@@ -394,6 +465,7 @@ Depan Gereja Baptis Kotaraja,
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
    </body>
+
 
 
 
